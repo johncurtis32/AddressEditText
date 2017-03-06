@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="address_edit_text">
+        <attr name="ae_drawable_start" format="reference" />
+        <attr name="ae_hint" format="string"/>
+        <attr name="ae_drawable_end" format="reference" />
+    </declare-styleable>
+
+</resources>

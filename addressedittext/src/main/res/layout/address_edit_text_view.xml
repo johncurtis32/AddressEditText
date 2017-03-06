@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <EditText
+            android:id="@+id/ed_address"
+            android:layout_width="0dp"
+            android:layout_weight="2.6"
+            android:layout_height="wrap_content"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:inputType="textPostalAddress|textNoSuggestions"
+            android:maxLines="1"
+            tool:drawableStart="@drawable/ic_place"
+            tool:hint="Address"
+            tool:background="@android:color/white"
+            tool:textColor="#7d7c7c"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_location"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tool:src="@drawable/ic_my_location"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+</merge>
